@@ -1,4 +1,4 @@
--- 06/21/2022 Assignment 1 SQL
+-- 06/21/2022 Day 1 SQL
 
 USE AdventureWorks2019
 GO
