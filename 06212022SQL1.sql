@@ -69,6 +69,6 @@ ORDER BY Name
 
 -- 12. Write a query that retrieves the unique combination of columns ProductSubcategoryID and Color from the Production.Product table. 
 -- We do not want any rows that are NULL.in any of the two columns in the result. (Hint: Use IsNull)
-SELECT ProductSubcategoryID, Color
+SELECT DISTINCT ProductSubcategoryID, Color
 FROM Production.Product
 WHERE ProductSubcategoryID IS NOT NULL AND Color IS NOT NULL
