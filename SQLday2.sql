@@ -144,19 +144,32 @@ HAVING COUNT(dt.CustomerID) >= 2
 ORDER BY NumOfCustomers DESC
 
 -- 18. List all Customer Cities that have ordered at least two different kinds of products.
-
-
-
+SELECT c.CustomerID, COUNT(od.ProductID) AS NumOfProducts
+FROM Customers c JOIN Orders o ON c.CustomerID = o.CustomerID JOIN [Order Details] od on od.OrderID = o.OrderID
+GROUP BY c.CustomerID
+HAVING COUNT(od.ProductID) >= 2
+ORDER BY NumOfProducts DESC
 
 -- 19. List 5 most popular products, their average price, and the customer city that ordered most quantity of it.
-
-
-
+SELECT dt.ProductID, dt.UnitPrice, dt.City, dt.Quantity
+FROM(
+SELECT c.City, od.Quantity, od.UnitPrice, RANK() OVER (ORDER BY Quantity DESC) RNK, od.ProductID
+FROM [Order Details] od JOIN Orders o ON od.OrderID = o.OrderID JOIN Customers c ON c.CustomerID = o.CustomerID) dt
+WHERE RNK < 5
 
 -- 20. List one city, if exists, that is the city from where the employee sold most orders (not the product quantity) is, and also the city of most total quantity of products ordered from. (tip: join sub-query)
-
-
+SELECT citye.City
+FROM (
+SELECT TOP 1 e.City, COUNT(o.OrderID) AS NumOfOrders
+FROM Employees e JOIN Orders o ON e.EmployeeID = o.EmployeeID
+GROUP BY e.City
+ORDER BY NumOfOrders DESC) AS CityE
+JOIN
+(SELECT TOP 1 o.ShipCity, SUM(od.Quantity) AS TotalNumProducts
+FROM Orders o JOIN [Order Details] od ON o.OrderID = od.OrderID
+GROUP BY o.ShipCity
+ORDER BY TotalNumProducts DESC) AS CityP
+ON CityE.City = CityP.ShipCity
 
 -- 21. How do you remove the duplicates record of a table?
-
 -- Using GROUP BY to combine the duplicates record.
