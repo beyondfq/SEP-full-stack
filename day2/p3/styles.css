@@ -1,0 +1,67 @@
+.header {
+    background-image: url("/hw/day2/p3/images/background.jpg");
+    background-repeat: no-repeat;
+    height: 80px;
+    background-size: cover;
+}
+
+.body {
+    background-color: lightgrey;
+}
+
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 30%;
+    left: 90%;
+}
+
+.p1 {
+    font-size: 32px;
+    position: relative;
+    left: 11%;
+    color: navy;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: 450px;
+    position: relative;
+    left: 10%;
+    margin: 20px;
+}
+
+.img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul1 {
+    position: fixed;
+    top: 95%;
+    left: 10%;
+}
+
+.li1 {
+    float: left;
+    display: block;
+    padding: 4px;
+    background-color: orange;
+    margin: 1px;
+    color: white;
+}
+
+.li2 {
+    float: left;
+    display: block;
+    padding: 4px;
+    background-color: skyblue;
+    margin: 1px;
+    color: white;
+}
