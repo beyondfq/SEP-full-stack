@@ -1,0 +1,165 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.header {
+  color: white;
+  font-size: 40px;
+  text-align: right;
+  margin: 0;
+  margin-right: 150px;
+  padding-top: 170px;
+}
+
+.container {
+  background-image: url("/hw/day2/p4/images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background-color: rgb(69, 196, 69);
+  height: 100px;
+}
+
+nav {
+  background-color: rgb(207, 200, 200);
+  background-position: center;
+  width: 1175px;
+}
+
+nav ul {
+  background-color: rgb(207, 200, 200);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px;
+  color: #666;
+
+}
+
+ul.topnav li a:hover {
+  background-color: darkgray;
+}
+
+.main {
+  background-color: white;
+  height: 1100px;
+  width: 1175px;
+  margin-left: 365px;
+}
+
+.text {
+  display: block;
+}
+
+.leftCol {
+  width: 55%;
+  margin-left: 80px;
+  margin-right:0;
+  float:left;
+}
+
+.rightCol {
+  width: 28%;
+  margin-right: 80px;
+  margin-left:66%;
+}
+
+.row {
+  margin-top: 20px;
+  border: 1px solid rgb(221, 220, 220);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.row1 {
+  border: 1px solid rgb(221, 220, 220);
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  height: 480px;
+}
+
+.row2 {
+  border: 1px solid rgb(221, 220, 220);
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  height: 325px;
+}
+
+.row3 {
+  border: 1px solid rgb(221, 220, 220);
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  height: 330px;
+}
+
+h2 {
+  padding-left:10px;
+  color: rgb(7, 185, 7);
+  margin-bottom: 0;
+}
+
+h6 {
+  font-size: 15px;
+  color:rgb(17, 17, 17);
+  margin-left:200px;
+  margin-top:50px;
+  padding-top:50px;
+}
+
+.innerRow {
+  margin-top: 20px;
+  padding: 0;
+  margin:0;
+  height: 25%;
+}
+
+li {
+  display: block;
+  float:left;
+  list-style: none;
+}
+
+.col1 {
+  width:32%;
+  margin:0;
+}
+
+.col2 {
+  width:65%;
+  margin:0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+h5 {
+  margin:0;
+}
+
+p {
+  margin: 3px;
+  padding-left: 10px;
+}
+
