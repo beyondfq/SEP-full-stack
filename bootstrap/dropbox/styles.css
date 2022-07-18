@@ -1,0 +1,24 @@
+.logo {
+    color:#007ee5;
+    border: 1px solid #007ee5;
+    border-radius: 5px;
+    padding:5px;
+    font-size: 13px;
+}
+
+.leftSide-col {
+    margin-left: 8%;
+    width:200px;
+} 
+
+input[type="text"] {
+    font-size: 15px;
+    width:350px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color:darkgray;
+}
+
+.or {
+    
+}
