@@ -1,0 +1,72 @@
+body {
+    background-image: url("wood-backgrounds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    background-color: white;
+    background-position: center;
+    width: 60%;
+    height: 2300px;
+    margin-left: 20%;
+}
+
+ul.navbar-nav li:hover {
+    background-color: darkgray;
+}
+
+li {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: darkgray;
+}
+
+.text-title {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Courier New';
+    color: rgb(92, 90, 90);
+    padding-bottom: 0;
+}
+
+.text-text {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(92, 90, 90);
+    width: 90%;
+    margin-left: 5%;
+}
+
+.text {
+    color:rgb(138, 133, 133);
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin: 15px;
+    width: 70%;
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.end {
+    text-align: center;
+    font-size: 40px;
+    font-family: Haettenschweiler;
+    color:rgb(92, 90, 90);
+}
+
+.footList {
+    list-style-type: none;
+}
+
+.center1 {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    margin-top:50px;
+}
