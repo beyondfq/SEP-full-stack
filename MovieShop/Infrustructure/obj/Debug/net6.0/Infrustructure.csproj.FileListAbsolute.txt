@@ -1,0 +1,15 @@
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\bin\Debug\net6.0\Infrustructure.deps.json
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\bin\Debug\net6.0\Infrustructure.dll
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\bin\Debug\net6.0\Infrustructure.pdb
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\Infrustructure.csproj.AssemblyReference.cache
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\Infrustructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\Infrustructure.AssemblyInfoInputs.cache
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\Infrustructure.AssemblyInfo.cs
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\Infrustructure.csproj.CoreCompileInputs.cache
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\Infrustructure.csproj.CopyComplete
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\Infrustructure.dll
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\refint\Infrustructure.dll
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\Infrustructure.pdb
+C:\Users\beyon\Desktop\Antra\ASP.NET\MovieShop\Infrustructure\obj\Debug\net6.0\ref\Infrustructure.dll
